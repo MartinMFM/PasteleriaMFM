@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PasteleriaMFM</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body class="container1">
+    <header class="header">
+        <nav class="header-title">
+            PasteleriaMFM
+            <div class="enlace">
+                <a class="enlace-link" href="./pastelero.html">Pastelero</a>
+            </div>
+        </nav>
+        <div class="header-image">
+            <img src="./IMG/Logo_Pasteleria.png" alt="">
+        </div>
+    </header>
+    <div class="title-pastel">
+        <h1>Pasteles</h1>
+    </div>
+    <div class="card">
+        <div class="card-list">
+            <img class="card-list-img" src="https://cdn7.kiwilimon.com//brightcove/7034/7034.jpg" alt="Pastel de chocolate">
+            <h2 class="card-list-name">Pastel de chocolate</h2>
+            <h3 class="card-list-precio">$500.00</h3>
+            <div class="card-list-desc">
+                <h3 class="card-list-desc-sabor">
+                    Sabores:<br>
+                    Chocolate
+                </h3>
+                <h3 class="card-list-desc-adornos">
+                    Adornos:<br>
+                    M&M'S
+                </h3>
+            </div>
+            <button class="card-list-btn">Ordenar</button>
+        </div>     
+    </div>
+    <div class="card">
+        <div class="card-list">
+            <img class="card-list-img" src="https://cdn7.kiwilimon.com/recetaimagen/29948/32254.jpg" alt="Pastel de cajeta">
+            <h2 class="card-list-name">Pastel de cajeta</h2>
+            <h3 class="card-list-precio">$300.00</h3>
+            <div class="card-list-desc">
+                <h3 class="card-list-desc-sabor">
+                    Sabores:<br>
+                    Cajeta<br>
+                    Vainilla
+                </h3>
+                <h3 class="card-list-desc-adornos">
+                    Adornos:<br>
+                    Nuez<br>
+                    Hershey's
+                </h3>
+            </div>
+            <button class="card-list-btn">Ordenar</button>
+        </div>     
+    </div>
+    <div class="card">
+        <div class="card-list">
+            <img class="card-list-img" src="https://m.media-amazon.com/images/I/71XEDJH9V8L._SL1500_.jpg" alt="Pastel de cumpleaños">
+            <h2 class="card-list-name">Pastel de cumpleaños</h2>
+            <h3 class="card-list-precio">$700.00</h3>
+            <div class="card-list-desc">
+                <h3 class="card-list-desc-sabor">
+                    Sabores:<br>
+                    Vainilla<br>
+                    Queso
+                </h3>
+                <h3 class="card-list-desc-adornos">
+                    Adornos:<br>
+                    Chispas
+                </h3>
+            </div>
+            <button class="card-list-btn">Ordenar</button>
+        </div>     
+    </div>
+    <div class="card">
+        <div class="card-list">
+            <img class="card-list-img" src="https://i.pinimg.com/originals/b3/91/4f/b3914f4e0f5859593479601ce018411f.jpg" alt="Pastel de tres leches">
+            <h2 class="card-list-name">Pastel de tres leches</h2>
+            <h3 class="card-list-precio">$600.00</h3>
+            <div class="card-list-desc">
+                <h3 class="card-list-desc-sabor">
+                    Sabores:<br>
+                    Vainilla<br>
+                    Queso
+                </h3>
+                <h3 class="card-list-desc-adornos">
+                    Adornos:<br>
+                    Duraznos<br>
+                    Fresas
+                </h3>
+            </div>
+            <button class="card-list-btn">Ordenar</button>
+        </div>     
+    </div>
+ <div id="myModal" class="modal">
+
+        
+        <div class="modal-content">
+            <!--<span class="close">&times;</span>-->
+            <h1>FORMULARIO</h1>
+            
+            <div>
+                <form>
+                  <label>Nombre</label><br>
+                  <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre"><br>
+                  <label>Teléfono</label><br>
+                  <input type="text" id="telefono" name="telefono" placeholder="Ingresa tu Teléfono"><br>
+                  <label>Correo Electrónico</label><br>
+                  <input type="email" id="Correo" name="Correo" placeholder="Ingresa tu Correo Electrónico"><br>
+                  <label>Descripción</label>
+                  <label class="container">Pastel de chocolate
+                    <input type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">Pastel de cajeta
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">Pastel de cumpleaños
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="container">Pastel de tres leches
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                  </label><br>
+
+                  <span>Sabor:</span>
+                  <label id="labelAdornos">Sabor 1
+                    <input type="checkbox"><br>
+                  </label><br>
+                  <label id="labelAdornos">Adorno 2
+                    <input type="checkbox"><br>
+                  </label><br><br>
+                  <label>Adornos</label>
+                  <label id="labelAdornos">Adorno 1
+                    <input type="checkbox"><br>
+                  </label>
+                  <label id="labelAdornos">Adorno 2
+                    <input type="checkbox"><br>
+                  </label><br>
+                  
+                  <label>Nota para el pastelero</label>
+                  <textarea name="nota" id="nota" cols="30" rows="10"></textarea>
+                  <input class="submit-btn" type="submit" value="Submit">
+                  </form>
+            </div>
+        </div>
+      
+      </div>
+
+
+
+
+
+    <footer>
+        <div class="footer-direccion">
+            Direccion: <br>
+            Misión de San Antonio de Padua 2683, Nueva Galicia, 80295 Culiacán Rosales, Sin.<br>
+            Telefono: <br>
+            6312345678
+        </div>
+        <div class="footer-horarios">
+            Horarios de atención:<br>
+            <ul>
+                <li>lunes	    9:00–20:00</li>
+                <li>martes	    9:00–20:00</li>
+                <li>miércoles	9:00–20:00</li>
+                <li>jueves	    9:00–20:00</li>
+                <li>viernes	    9:00–20:00</li>
+                <li>sábado	    9:00–20:00</li>
+                <li>domingo	    9:00–20:00</li>
+            </ul>
+        </div>
+    </footer>
+
+
+   
+</body>
+</html>
